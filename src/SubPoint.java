@@ -27,6 +27,14 @@ package fdeb;
  *
  * @author Dejoy
  */
-public class SubPoint {
-    
+public class SubPoint extends Point {
+    public double xCoord;
+    public double yCoord;
+    public double springForces;
+    public SubPoint (double x, double y){
+        super(x, y);
+        xCoord = x;
+        yCoord = y;
+        System.out.println("Subpoint: X: " + xCoord + " Y: " + yCoord);
+    }
 }
