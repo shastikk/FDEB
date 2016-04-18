@@ -7,10 +7,7 @@ public class FDEB {
         Point d = new Point (200.0, 250.0);
         Edge edge1 = new Edge (a, b);
         Edge edge2 = new Edge (c, d);
-        Edge edge3 = new Edge (a,d);
-        Edge edge4 = new Edge (b, c);
-        Edge edge5 = new Edge (a,c);
-        Edge edge6 = new Edge (b, d);
+        
     }
     
 }
